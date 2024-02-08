@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Raquel</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/global.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">    
+  <script src="https://kit.fontawesome.com/b3d79f4e5d.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="mobile-fixed">
+    <div class="header-mobile">
+      <a href="#home" class="logo">DeSouza<span class="purple-text">.</span></a>
+
+      <div class="click-menu">
+        <i class="fa-solid fa-bars-staggered" style="font-size: 20px; color: var(--white);"></i>
+      </div>
+  
+      <div class="menu-items-mobile hidden">
+        <ul class="menu-links">
+            <a class="items-mobile" href="#home">Home</a>
+            <a class="items-mobile" href="#about">About</a>
+            <a class="items-mobile" href="#projects">Projects</a>
+            <a class="items-mobile" href="#contact">Contact</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="all-page">
+    <div class="header flex">
+      <a href="#home" class="logo">DeSouza<span class="purple-text">.</span></a>
+  
+      <ul class="menu-links">
+          <a class="items" href="#home">Home</a>
+          <a class="items" href="#about">About</a>
+          <a class="items" href="#projects">Projects</a>
+          <a class="items" href="#contact">Contact</a>
+      </ul>
+    </div>
+
+
+    <div class="profile-content flex" id="home">
+      <div class="main-content">
+        <h3 class="subtitle">Hello! I'am</h3>
+        <h1 class="name">Raquel Penteado</h1>
+        <h3 class="subtitle">I'm a <span class="purple-text">Developer</span></h3>
+        <p class="description">Welcome to my personal portfolio, here are some of my personal projects that you might like.</p>
+      </div>
+      <img src="/assets/profile.svg" alt="Profile with a background">
+    </div>
+  </div>
+  <div class="section flex" id="about">
+    <div class="skills">
+      <div class="skill-item">
+        <p class="skill-name">PHP</p>
+        <img src="./assets/skill-php.svg" alt="Skill PHP">
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">SASS</p>
+        <img src="/assets/skill-sass.svg" alt="Skill SASS">
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">JS</p>
+        <img src="/assets/skill-js.svg" alt="Skill JS">
+      </div>
+      <div class="skill-item">
+        <p class="skill-name">Drupal</p>
+        <img src="/assets/skill-drupal.svg" alt="Skill Drupal">
+      </div>
+    </div>
+    <div class="about">
+      <h3 class="subtitle">About <span class="purple-text">Me</span></h3>
+      <p class="bold-mini-text">My involvement with programming began in late 2020, a passion that has always been present in my life. The following year, I enrolled in the Computer Science course at <a href="https://www.wyden.com.br" class="purple-text" target="_blank">Unimetrocamp Wyden</a>, where I had the opportunity to meet wonderful people who have contributed to my journey so far. My first experience in the field of Information Technology was through an internship at  <a href="https://ciandt.com/br/pt-br/home" target="_blank" class="purple-text">CI&T</a>, which started during my second semester of college. This experience provided me with valuable knowledge and the opportunity to work with incredible professionals..</p>
+
+      <p class="bold-mini-text" style="margin-bottom: 55px;">After almost two years of dedication, I achieved the position of <span class="purple-text">Junior Systems Analyst</span>. In addition to my passion for programming, I also have an interest in the design field. I have taken some courses and used various tools in personal projects, aiming to improve my skills in this area. I plan to continue taking courses to deepen my knowledge in this field.</p>
+
+      <a href="/assets/Curriculum-RP.pdf" download class="button">Curriculum</a>
+    </div>
+  </div>
+
+  <div class="all-page projects" id="projects">
+    <h3 class="subtitle" style="text-align: center;">My <span class="purple-text">Personal Projects</span></h3>
+    <div class="flex-card" style="margin-bottom: 50px;">
+      <div class="content-card">
+        <a href="https://github.com/RaquelPenteado/socialMediaDashboard" target="_blank">
+          <img src="/projects/dashboard.svg" alt="Dashboard">
+        </a>
+      </div>
+      <div class="content-card">
+        <a href="https://github.com/RaquelPenteado/sunnyside" target="_blank">
+          <img src="/projects/sunny.svg" alt="Sunny">
+        </a>
+      </div>
+      <div class="content-card">
+        <a href="https://github.com/RaquelPenteado/finances" target="_blank">
+          <img src="/projects/finances.svg" alt="Finances">
+        </a>
+      </div>
+      <div class="content-card">
+        <a href="https://github.com/RaquelPenteado/nlw-heat" target="_blank">
+          <img src="/projects/my-card.svg" alt="My Card">
+        </a>
+      </div>
+      <div class="content-card">
+        <a href="https://github.com/RaquelPenteado/columns" target="_blank">
+          <img src="/projects/responsiveness.svg" alt="Responsiveness">
+        </a>
+      </div>
+      <div class="content-card">
+        <a href="https://github.com/RaquelPenteado/Starbucks" target="_blank">
+          <img src="/projects/starbucks.svg" alt="Starbucks">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="section contact" id="contact">
+    <h3 class="subtitle" style="text-align: center;">Contact <span class="purple-text">Me</span></h3>
+    <div class="flex-card">
+      <a target="_blank" href="https://github.com/RaquelPenteado" class="content-card shadow">
+        <i class="fa-brands fa-github"></i>
+        <h3 class="icons-title">GitHub</h3>
+        <p class="regular-text">Here are my repositories. Follow me to stay updated and see my personal projects.</p>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/raquelpenteado/" class="content-card shadow">
+        <i class="fa-brands fa-linkedin"></i>
+        <h3 class="icons-title">LinkedIn</h3>
+        <p class="regular-text">Connect with me on LinkedIn, where I share insightful publications for learning and provide an overview of my professional journey and courses.</p>
+      </a>
+      <a target="_blank" href="mailto:raquelpenteado4@gmail.com" class="content-card shadow">
+        <i class="fa-solid fa-envelope"></i>
+        <h3 class="icons-title">Email</h3>
+        <p class="regular-text">If you want to communicate with me, feel free to send me an email.</p>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
